@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".StartActivity">
+
+    <ImageView
+        android:id="@+id/post3"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/bg" />
+
+    <ImageView
+        android:id="@+id/postchain3"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="81dp"
+        android:src="@drawable/sp" />
+
+    <Button
+        android:id="@+id/register11"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:background="#ee2e24"
+        android:text="회원가입"
+        android:fontFamily="@font/nanum"
+        android:textColor="#ffffff" />
+    <Button
+        android:id="@+id/login11"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="101dp"
+        android:background="#ffffff"
+        android:text="로그인"
+        android:fontFamily="@font/nanum"
+        android:textColor="#ee2e24" />
+
+</RelativeLayout>

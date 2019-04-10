@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EleActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+            <ImageView
+
+                android:id="@+id/ele"
+                android:layout_width="1440px"
+                android:layout_height="2560px"
+                android:layout_alignParentStart="true"
+                  android:layout_alignParentTop="true"
+                android:background="@drawable/ele" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:weightSum="1"
+            android:layout_height="wrap_content">
+
+
+    <Button
+        android:id="@+id/pay"
+        android:gravity="center"
+        android:background="#e95144"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="납 부 하 기"/>
+
+    </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
